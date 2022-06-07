@@ -105,6 +105,11 @@ iframe{
     height: auto;
 }
 
+.made{
+    width: 95%;
+}
+
+
 /*desktop*/
 @media (min-width:1329px){
 
@@ -130,7 +135,7 @@ grid-template-rows: 5%  auto  auto
     font-family:cursive;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;     
+    justify-content: center;
 }
 
 .conFlex{
@@ -154,4 +159,66 @@ flex-direction: row;
 iframe{
     width: 1060px; height:600px
 }
+
+
+
+
+.contenedor-imagenes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}  
+nav{background-image: linear-gradient(to right, rgb(146, 82, 165), white)}
+
+.made{
+    width: 97%;
+}
+.navfuent{
+    background-image: linear-gradient(to right, rgb(100, 23, 119), white);
+}
+.cuadrado {width: 42,9px;
+    height: 27px;
+    background-color: palevioletred;
+    animation-name: yanimacion;
+    animation-duration: 3s;
+    animation-delay: 0,5s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 500;
+}
+@keyframes yanimacion{
+    0%{background-color:palevioletred;}
+    20%{background-color: brown; }
+    40%{background-color: aquamarine; }
+    60%{background-color: violet; }
+    80%{background-color: rgb(255, 145, 0);}
+    100%{background-color: rgb(89, 152, 247); }
+}
+
+
+
+#cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    animation-name: mianimacion;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 500;
+    
+}  
+    
+@keyframes mianimacion{
+    0%{background-color:palevioletred; left: 0px;top:0px;}
+    20%{background-color: brown; left: 200px;}
+    40%{background-color: aquamarine;left:400px; top:0px}
+    60%{background-color: violet;left:600px; top:0px}
+    80%{background-color: rgb(255, 145, 0);left:800px; top:0px}
+    100%{background-color: rgb(89, 152, 247);left:1000px; top:0px}
+   
+}
+
 }
