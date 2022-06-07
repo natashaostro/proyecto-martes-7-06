@@ -58,7 +58,7 @@ nav{
 
 nav{
     grid-area: nav;
-    
+    text-align: start;
 }
 
 
@@ -104,6 +104,8 @@ iframe{
     width: auto;
     height: auto;
 }
+
+
 
 /*desktop*/
 @media (min-width:1329px){
@@ -153,5 +155,19 @@ flex-direction: row;
 
 iframe{
     width: 1060px; height:600px
+}
+
+.fuentes{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
+}
+.titulofuente{
+    font-family:cursive;
+    font-style: italic;
+   color: rgb(170, 20, 170);;
+   margin-top: 10px;
 }
 }
