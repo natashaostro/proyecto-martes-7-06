@@ -171,7 +171,43 @@ grid-template-areas:
     height: 30px;
     
 }    
-    
+header{
+    animation-name: eanimacion;
+    animation-duration: 6s;
+    animation-delay: 0,5s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
 
-    
+}
+nav{
+    background-image: linear-gradient(to right, rgb(212, 162, 253), white);
+    animation-name: animacion;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: 500;
+}   
+
+@keyframes animacion{
+0%{background-image: linear-gradient( rgb(226, 177, 241), white);}
+30%{background-attachment: fixed;}
+50%{background-attachment: inherit;}
+70%{background-size: contain;}
+100%{background-attachment:unset;}
+}
+@keyframes eanimacion{
+    20%{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    30%{font-style: oblique;}
+    40%{text-align: start;}
+    50%{color: rgb(255, 255, 255);}
+    50%{text-align: center;}
+    70%{font-style: italic;}
+    80%{text-align: end;}
+    90%{color: rgba(0, 0, 0, 0.192);}
+    100%{transform: rotate(2s);}
+
+
+}
 }
