@@ -14,11 +14,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
 }
 
-#imagenes{
-    margin-top: 300px;
-    margin-left:50px;
-    margin-right: 50px;;
-}
+
 
 h3{
     text-align: start;
@@ -39,15 +35,51 @@ h2{
    text-align:center;
 }
 
-.card{
-    margin-top: 60px;
-    margin-left: 40px;
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 .card-header{
     background-color: rgb(167, 206, 243);
     font-size:medium;
 }
 
+
+
+
+.menuFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    margin-top: 80px;
+    border: 0.1cm;
+    border-style:ridge;
+    border-color: rgb(255, 255, 255);
+ 
+
+}
+
+.flex{
+    border: 0.1cm;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+    box-sizing: border-box ;
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.705);
+    margin-top: 100px;
+    justify-content: center;
+    color: rgba(2, 102, 184, 0.767);
+    font-size: xx-small;
+    
+    
+}
+
+
+.blockquote{
+    font-size:medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.blockquote-footer{
+    font-style: italic;
+    font-size: x-small;
+}
