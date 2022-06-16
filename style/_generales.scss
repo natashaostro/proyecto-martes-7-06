@@ -4,10 +4,9 @@
   
 }
 
-
 body{
     background-color:$a;
-#contenedor{
+#contenedor {
         display: grid;
         grid-template-areas:
             
@@ -21,87 +20,89 @@ body{
             grid: 10px;
             width:71.9% ;
             height:100vh ;
-
 .border{
-                border: 2px solid black;
-            
+    border: 2px solid $borde;
+
 header{
-            grid-area: header;
-            text-align: center;
-            background-color: $color;}        
- nav{
-                grid-area: nav;
-                background-color:azure;
-                text-align: center;
-        li{
-                    display:inline;
-                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                 a{
-                    
-                    font-size: large ;
-                    font-style:inherit;
-                  }   
-                  
-          }       
-           
-           
-    }       
-#productos{
-        grid-area: productos;
-        .productosFlex{
-            display: flex;
-            text-align: justify;
-            color: rgb(170, 20, 170);
-            font-family:cursive;
-            flex-wrap: wrap;
-            flex-direction: row;
-           
+    grid-area: header;
+    text-align: center;
+    background-color: $color;
+}       
+
+
+nav{
+    grid-area: nav;
+    background-color:$a;
+    text-align: center;
+    li{
+        display:inline;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        a{
+    
+            font-size: large ;
+            font-style:inherit;
+            
+          
+            
+            
         }
-    }       
-#servicios{
-        grid-area: servicios;
-        
-        .menuFlex{
+         
+      
+    }
+
+
+}
+
+#productos{
+    grid-area: productos;
+    .productosFlex{
         display: flex;
         text-align: justify;
-        color: rgb(170, 20, 170);
+        color:$violeta;
         font-family:cursive;
         flex-wrap: wrap;
         flex-direction: row;
+       
     }
+}
+#servicios{
+    grid-area: servicios;
+   .menuFlex{
+    display: flex;
+    text-align: justify;
+    color: $violeta;
+    font-family:cursive;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+}
 
-}        
- 
+
 #contenido{
     grid-area: contenido;
     .conFlex{
         display: flex;
         text-align: justify;
-        color: rgb(170, 20, 170);
+        color:$violeta;
         font-family:cursive;
         flex-wrap: wrap;
         flex-direction: row;
        
         
     }
-}
-       
-        
+   
+}  
 #footer{
     grid-area: footer;
     font-size: small;
     text-align: center;
-    background-color: rgb(152, 112, 190);
+    background-color:$lila;
     height: 30px;
     
-}         
+}    
+    
 }
+
 }
-}      
-        
-        
-        
-        
-        
-        
- 
+    
+}
