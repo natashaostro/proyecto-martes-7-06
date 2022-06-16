@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: azure;
+}
+
+body #contenedor {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header  header  " "nav  contenido " "nav  productos  " "nav servicios " " footer  footer  ";
+  -ms-grid-columns: 15%  auto;
+      grid-template-columns: 15%  auto;
+  -ms-grid-rows: 50px 2fr 1fr auto;
+      grid-template-rows: 50px 2fr 1fr auto;
+  grid: 10px;
+  width: 71.9%;
+  height: 100vh;
+}
+
+body #contenedor .border {
+  border: 2px solid black;
+}
+
+body #contenedor .border header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  text-align: center;
+  background-color: #9870be;
+}
+
+body #contenedor .border header nav {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  background-color: azure;
+  text-align: center;
+}
+
+body #contenedor .border header nav li {
+  display: inline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body #contenedor .border header nav li a {
+  font-size: large;
+  font-style: inherit;
+}
+
+body #contenedor .border #productos {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: productos;
+}
+
+body #contenedor .border #productos .productosFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: #aa14aa;
+  font-family: cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #contenedor .border #servicios {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: servicios;
+}
+
+body #contenedor .border #servicios .menuFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: #aa14aa;
+  font-family: cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #contenedor .border #contenido {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: contenido;
+}
+
+body #contenedor .border #contenido .conFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: #aa14aa;
+  font-family: cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #contenedor .border #footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  font-size: small;
+  text-align: center;
+  background-color: #9870be;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */

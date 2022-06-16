@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+body{
+    background-color:$a;
+#contenedor{
+        display: grid;
+        grid-template-areas:
+            
+            "header  header  "
+            "nav  contenido "
+            "nav  productos  "
+             "nav servicios "
+            " footer  footer  "; 
+            grid-template-columns: 15%  auto;
+            grid-template-rows: 50px 2fr 1fr auto;
+            grid: 10px;
+            width:71.9% ;
+            height:100vh ;
+
+.border{
+                border: 2px solid black;
+            
+header{
+            grid-area: header;
+            text-align: center;
+            background-color: $color;}        
+ nav{
+                grid-area: nav;
+                background-color:azure;
+                text-align: center;
+        li{
+                    display:inline;
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                 a{
+                    
+                    font-size: large ;
+                    font-style:inherit;
+                  }   
+                  
+          }       
+           
+           
+    }       
+#productos{
+        grid-area: productos;
+        .productosFlex{
+            display: flex;
+            text-align: justify;
+            color: rgb(170, 20, 170);
+            font-family:cursive;
+            flex-wrap: wrap;
+            flex-direction: row;
+           
+        }
+    }       
+#servicios{
+        grid-area: servicios;
+        
+        .menuFlex{
+        display: flex;
+        text-align: justify;
+        color: rgb(170, 20, 170);
+        font-family:cursive;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+}        
+ 
+#contenido{
+    grid-area: contenido;
+    .conFlex{
+        display: flex;
+        text-align: justify;
+        color: rgb(170, 20, 170);
+        font-family:cursive;
+        flex-wrap: wrap;
+        flex-direction: row;
+       
+        
+    }
+}
+       
+        
+#footer{
+    grid-area: footer;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(152, 112, 190);
+    height: 30px;
+    
+}         
+}
+}
+}      
+        
+        
+        
+        
+        
+        
+ 
