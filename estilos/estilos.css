@@ -1,4 +1,4 @@
-/*mobile-smart*/
+
 *{
     padding: 0;
     margin: 0;
@@ -7,17 +7,8 @@
 .border{
     border: 2px solid black;
 }
-header{
-    grid-area: header;
-    text-align: center;
-    background-color: rgb(152, 112, 190);
-}
 
-nav{
-    grid-area: nav;
-    background-color:azure;
-    text-align: center;
-}
+
 
 #productos{
     grid-area: productos;
@@ -26,13 +17,7 @@ nav{
     grid-area: servicios;
 }
 
-footer{
-    grid-area: footer;
-    font-size: small;
-    text-align: center;
-    background-color: rgb(152, 112, 190);
-    
-}
+
 #contenido{
     grid-area: contenido;
    
@@ -60,62 +45,17 @@ li{
   
 }
 
-.menuFlex{
-    display: flex;
-    text-align: justify;
-    color: rgb(170, 20, 170);
-    font-family:cursive;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
-.productosFlex{
-    display: flex;
-    text-align: justify;
-    color: rgb(170, 20, 170);
-    font-family:cursive;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.conFlex{
-    display: flex;
-    text-align: justify;
-    color: rgb(170, 20, 170);
-    font-family:cursive;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 body{
     background-color:azure;;
 }
 
 
-#contenedor{
-    display: grid;
-    grid-template-areas:
-         "header" 
-        "nav"
-        "productos"
-        "servicios " 
-        "contenido "
-        " footer "; 
-        grid-template-columns: 100%;
-        grid-template-rows: 100px 2fr 2fr 100px ;
-        grid: 5px;
-    
-    }
 
 
 
 
-/*desktop*/
-@media (min-width:1329px){
 
     
 #contenedor{
@@ -190,24 +130,5 @@ nav{
     animation-iteration-count: 500;
 }   
 
-@keyframes animacion{
-0%{background-image: linear-gradient( rgb(226, 177, 241), white);}
-30%{background-attachment: fixed;}
-50%{background-attachment: inherit;}
-70%{background-size: contain;}
-100%{background-attachment:unset;}
-}
-@keyframes eanimacion{
-    20%{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-    30%{font-style: oblique;}
-    40%{text-align: start;}
-    50%{color: rgb(255, 255, 255);}
-    50%{text-align: center;}
-    70%{font-style: italic;}
-    80%{text-align: end;}
-    90%{color: rgba(0, 0, 0, 0.192);}
-    100%{transform: rotate(2s);}
 
 
-}
-}
