@@ -1,14 +1,22 @@
+@import "variables";
+@import "layout";
 
-*{
-    padding: 0;
-    margin: 0;
-  
-}
+
+
 .border{
-    border: 2px solid black;
+    border: 2px solid $negro;
+}
+header{
+    grid-area: header;
+    text-align: center;
+    background-color: $color;
 }
 
-
+nav{
+    grid-area: nav;
+    background-color:$blanco;
+    text-align: center;
+}
 
 #productos{
     grid-area: productos;
@@ -24,7 +32,7 @@
 }
 
 #contenedor{
-    width:100% ;
+    width:72% ;
     height:100vh ;
 }
 
@@ -45,11 +53,16 @@ li{
   
 }
 
+ 
+
+
 
 
 body{
-    background-color:azure;;
+    background-color:$blanco;
 }
+
+
 
 
 
@@ -75,7 +88,7 @@ grid-template-areas:
 .menuFlex{
     display: flex;
     text-align: justify;
-    color: rgb(170, 20, 170);
+    color: $violeta;
     font-family:cursive;
     flex-wrap: wrap;
     flex-direction: row;
@@ -85,7 +98,7 @@ grid-template-areas:
 .productosFlex{
     display: flex;
     text-align: justify;
-    color: rgb(170, 20, 170);
+    color: $violeta;
     font-family:cursive;
     flex-wrap: wrap;
     flex-direction: row;
@@ -95,7 +108,7 @@ grid-template-areas:
 .conFlex{
     display: flex;
     text-align: justify;
-    color: rgb(170, 20, 170);
+    color:$violeta;
     font-family:cursive;
     flex-wrap: wrap;
     flex-direction: row;
@@ -107,28 +120,11 @@ grid-template-areas:
     grid-area: footer;
     font-size: small;
     text-align: center;
-    background-color: rgb(152, 112, 190);
+    background-color: $color;
     height: 30px;
     
 }    
-header{
-    animation-name: eanimacion;
-    animation-duration: 6s;
-    animation-delay: 0,5s;
-    position: relative;
-    animation-timing-function: linear;
-    animation-iteration-count: 3;
+    
 
-}
-nav{
-    background-image: linear-gradient(to right, rgb(212, 162, 253), white);
-    animation-name: animacion;
-    animation-duration: 6s;
-    animation-delay: 1s;
-    position: relative;
-    animation-timing-function: linear;
-    animation-iteration-count: 500;
-}   
-
-
+    
 
