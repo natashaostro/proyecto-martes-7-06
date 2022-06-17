@@ -5,3 +5,100 @@
 }
 
 
+
+    .border{
+            border: 2px solid $negro;
+        }
+    body{
+    background-color:$blanco;
+    #contenedor{
+        width:72% ;
+        height:100vh ;
+        display: grid;
+    grid-template-areas:
+        
+        "header  header  "
+        "nav  contenido "
+        "nav  productos  "
+         "nav servicios "
+        " footer  footer  "; 
+        grid-template-columns: 15%  auto;
+        grid-template-rows: 50px 2fr 1fr auto;
+        grid: 10px;
+
+    header{
+            grid-area: header;
+            text-align: center;
+            background-color: $color;}
+
+    nav{
+            grid-area: nav;
+            background-color:$blanco;
+            text-align: center;
+   li{
+    display:inline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   a{
+    font-size: large ;
+    font-style:inherit;}
+     
+    }
+        }
+    #productos{
+        grid-area: productos;
+        .productosFlex{
+            display: flex;
+            text-align: justify;
+            color: $violeta;
+            font-family:cursive;
+            flex-wrap: wrap;
+            flex-direction: row;
+           
+        }
+    }
+    #servicios{
+        grid-area: servicios;
+        .menuFlex{
+            display: flex;
+            text-align: justify;
+            color: $violeta;
+            font-family:cursive;
+            flex-wrap: wrap;
+            flex-direction: row;
+            
+        
+        }
+        
+    }
+    #contenido{
+        grid-area: contenido;
+        .conFlex{
+            display: flex;
+            text-align: justify;
+            color:$violeta;
+            font-family:cursive;
+            flex-wrap: wrap;
+            flex-direction: row;
+           
+            
+        }
+    }
+    #footer{
+        grid-area: footer;
+        font-size: small;
+        text-align: center;
+        background-color: $color;
+        height: 30px;
+        
+    }    
+
+
+
+
+
+
+    }
+
+}
+
+

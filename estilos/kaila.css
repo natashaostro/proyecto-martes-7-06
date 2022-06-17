@@ -7,6 +7,129 @@
   border: 2px solid black;
 }
 
+body {
+  background-color: azure;
+}
+
+body #contenedor {
+  width: 72%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header  header  " "nav  contenido " "nav  productos  " "nav servicios " " footer  footer  ";
+  -ms-grid-columns: 15%  auto;
+      grid-template-columns: 15%  auto;
+  -ms-grid-rows: 50px 2fr 1fr auto;
+      grid-template-rows: 50px 2fr 1fr auto;
+  grid: 10px;
+}
+
+body #contenedor header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  text-align: center;
+  background-color: #9870be;
+}
+
+body #contenedor nav {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  background-color: azure;
+  text-align: center;
+}
+
+body #contenedor nav li {
+  display: inline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body #contenedor nav li a {
+  font-size: large;
+  font-style: inherit;
+}
+
+body #contenedor #productos {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: productos;
+}
+
+body #contenedor #productos .productosFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: #aa14aa;
+  font-family: cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #contenedor #servicios {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: servicios;
+}
+
+body #contenedor #servicios .menuFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: #aa14aa;
+  font-family: cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #contenedor #contenido {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: contenido;
+}
+
+body #contenedor #contenido .conFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: #aa14aa;
+  font-family: cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #contenedor #footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  font-size: small;
+  text-align: center;
+  background-color: #9870be;
+  height: 30px;
+}
+
+.border {
+  border: 2px solid black;
+}
+
 header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
