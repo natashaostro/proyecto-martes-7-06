@@ -1,0 +1,27 @@
+*{ padding: 0;margin: 0;}
+
+header {
+    grid-area: header;
+    text-align: center;
+    background-color: $background-color_1;}
+nav {
+    grid-area: nav;
+    background-color: $background-color_2;
+    text-align: center;
+
+    li {
+        display: inline;
+        font-family: $font-family_1;
+                  a { font-size: large;
+                      font-style: inherit;}
+       }
+    }
+
+body {background-color: $background-color_2;}
+
+#footer { grid-area: footer;
+          font-size: small;
+          text-align: center;
+          background-color: $background-color_1;
+          height: 30px;}
+   
