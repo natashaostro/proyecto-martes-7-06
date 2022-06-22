@@ -1,5 +1,5 @@
 /*mobile-smart*/
-
+@media (max-width:600px){
 *{
     padding: 0;
     margin: 0;
@@ -17,11 +17,11 @@ body{
 }
 .container {
   display: grid;
-  grid-template-rows: 2fr  800px auto;
-  grid-template-columns: 1fr  ;
+  grid-template-rows:   auto 800px;
+  grid-template-columns: 2fr  ;
   grid-gap: 5px;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   grid-template-areas:
   "area2"
   "area4"
@@ -58,13 +58,13 @@ body{
     margin-top: 1100px;
   }
   .imagen{
-    width: 800px;
+    width: 866px;
     height: 30vh;
     border: black 5px solid;}
     .cuadro {
       display: grid;
       grid-template-columns: 1fr ;
-      margin-top: 60px;
+      margin-top: 8s0px;
       width: 80%;
       height: 80vh;
       margin-bottom: 60px;
@@ -104,9 +104,13 @@ body{
     .box div {
       width: 800px;
       height: 600px;
-    }
+    }}
 /*desktop*/
 @media (min-width:1482px){
+  body{
+    background-color:rgb(227, 222, 222);
+    
+  }
 
 .container {
     display: grid;
@@ -117,22 +121,14 @@ body{
     grid-template-areas:
     " area2 area3"
     "area2 area4 ";
-    
   }
-  footer{
-    margin-top: 25px;
-    
-  }
-  .imagen{
-    width: 1479px;
-    height: 30vh;
-    border: black 2px solid;
-  }
+ 
+  
   header{
     font-family: monospace;
     background-color: thistle;
     border: black 5px solid;
-   width: 99.6%;
+   width: 99.9%;
   }
   
   .area2 {
@@ -153,14 +149,23 @@ body{
     text-align: justify;
     margin-top: 13px;
     font-size: 16px;
-  margin-right: 4px;
+  margin-right: 14px;
   }
   .area4 {
     grid-area: area4;
     border: black 6px solid;
     background-color: black;
   }
-
+  h1{text-align: center;}
+   footer{
+    margin-top: 40px;
+    
+  }
+.imagen{
+    width: 1479px;
+    height: 30vh;
+    border: black 2px solid;
+  }
 
 .cuadro {
   display: grid;
@@ -204,8 +209,13 @@ body{
   justify-content: center;
   background-color: rgba(189, 153, 187, 0.827);
   margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 40px;
 }
-
+li{
+  list-style-type: square;
+  list-style-position: inside;
+}
 .box div {
   width: 800px;
   height: 600px;
