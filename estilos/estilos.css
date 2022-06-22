@@ -1,4 +1,5 @@
 /*mobile-smart*/
+@media (max-width:600px){
 *{
     padding: 0;
     margin: 0;
@@ -103,7 +104,7 @@ body{
     .box div {
       width: 800px;
       height: 600px;
-    }
+    }}
 /*desktop*/
 @media (min-width:1482px){
 
