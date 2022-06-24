@@ -1,0 +1,194 @@
+/*desktop*/
+@media (max-width:1043px) {
+	
+	
+.container {
+		margin-top: 70px;
+		display: grid;
+		width: 100%;
+		justify-items: center;
+		grid-gap: 5px;
+		grid-template-columns: 2fr;
+		grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6";
+	}
+	.area1 {
+		grid-area: area1;
+	}
+	.area2 {
+		grid-area: area2;
+	}
+	.area3 {
+		grid-area: area3;
+	}
+	.area4 {
+		grid-area: area4;
+	}
+	.area5 {
+		grid-area: area5;
+	}
+	.area6 {
+		grid-area: area6;
+	}
+	
+	
+	.imagen {
+		width: 600px;
+		height: 30vh;
+		border: map-get($map: $palette, $key: $background-color_1) 2px solid;
+	}
+	.cuadro {
+		display: grid;
+		grid-template-columns: 2fr;
+		justify-items: center;
+		margin-top: 60px;
+		width: 80%;
+		height: 80vh;
+		margin-bottom: 60px;
+		margin-left: 30px;
+	}
+	.elemento {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		background-color: map-get($map: $palette, $key: $background-color_3);
+		align-items: center;
+		margin-top: 20px;
+		border: map-get($map: $palette, $key: $background-color_1)2px solid;
+	}
+	.titulo {
+		font-size: 40px;
+		font-family: map-get($map: $palette, $key: $font-family_2);
+		color:map-get($map: $palette, $key:$color_1) ;
+	}
+	.descripcion {
+		font-size: 20px;
+		font-family:map-get($map: $palette, $key:$font-family_3 ) ;
+		color:map-get($map: $palette, $key: $color_2) ;
+		text-align: justify;
+	}
+	.fuen {
+		display: grid;
+		grid-template-rows: 300px 300px;
+		grid-template-columns: 300px 330px;
+	}
+	.redondo1 {
+		background-color:map-get($map: $palette, $key:$background-color_4 ) ;
+		margin-top: 80px;
+		border-radius: 50%;
+		margin-left: 50px;
+	}
+	.parrafo {
+		margin-top: 100px;
+		font-size: x-small;
+		text-align: center;
+		font-weight: bold;
+	}
+	.redondo2 {
+		background-color: map-get($map: $palette, $key:$background-color_5 );
+		margin-top: 170px;
+		border-radius: 50%;
+		margin-left: 190px;
+	}
+	.parrafo2 {
+		color: $color_3;
+    	font-family:map-get($map: $palette, $key: $font-family_4) ;
+	   font-weight: bold; 
+        margin-left: 40px;
+        text-align:center ;
+        margin-top: 50px;
+        font-size: x-large;}
+	.redondo3 {
+		background-image: url(https://www.actuallynotes.com/wp-content/uploads/2018/09/Que%CC%81-es-una-fuente-histo%CC%81rica.jpg);
+		margin-top: 100px;
+		border-radius: 50%;
+		margin-left: 100px;
+	}
+}
+@media (min-width:1044px) {
+	.container {
+		margin-top: 70px;
+		display: grid;
+		grid-gap: 5px;
+		grid-template-columns: 1fr 1fr 400px;
+		grid-template-rows: 1fr 1fr;
+	}
+	
+	.imagen {
+		width: 1100px;
+		height: 30vh;
+		border:map-get($map: $palette, $key: $background-color_1) 2px solid;
+	}
+	.cuadro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 0.5fr 500px;
+		margin-top: 60px;
+		width: 80%;
+		height: 80vh;
+		margin-bottom: 140px;
+		margin-left: 10px;
+	}
+	.elemento {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		background-color:map-get($map: $palette, $key: $background-color_3) ;
+		align-items: center;
+		margin-top: 20px;
+		border:map-get($map: $palette, $key: $background-color_1) 2px solid;
+	}
+	.titulo {
+		font-size: 40px;
+		font-family:map-get($map: $palette, $key: $font-family_2);
+		color:map-get($map: $palette, $key:$color_1 ) ;
+	}
+	.descripcion {
+		font-size: 20px;
+		font-family:map-get($map: $palette, $key:$font-family_3 ) ;
+		color: map-get($map: $palette, $key:$color_2 );
+		text-align: justify;
+	}
+	
+	.fuen {
+		display: grid;
+		grid-template-rows: 300px auto 210px;
+		grid-template-columns: 300px 330px 290px;
+	}
+	.redondo1 {
+		background-color:map-get($map: $palette, $key:$background-color_4 ) ;
+		margin-top: 80px;
+		border-radius: 50%;
+		margin-left: 50px;
+	}
+    
+	.parrafo {
+		margin-top: 100px;
+		font-size: x-small;
+		text-align: center;
+		font-weight: bold;
+	}
+    .parrafo2 {
+        font-weight: bold;
+        color: map-get($map: $palette, $key: $color_3) ;
+        margin-left: 44px;
+        margin-top: 50px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: x-large;
+      }
+	.redondo2 {
+		background-color:map-get($map: $palette, $key: $background-color_5) ;
+		margin-top: 170px;
+		border-radius: 50%;
+		margin-left: 190px;
+	}
+	.redondo3 {
+		background-image: url(https://www.actuallynotes.com/wp-content/uploads/2018/09/Que%CC%81-es-una-fuente-histo%CC%81rica.jpg);
+		margin-top: 220px;
+		border-radius: 50%;
+		margin-left: 190px;
+		margin-right: 20px;
+	}
+	
+}

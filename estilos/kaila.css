@@ -1,301 +1,271 @@
-@media (max-width:1043px) {
+/*desktop*/
+@media (max-width: 1043px) {
   * {
     padding: 0;
     margin: 0;
   }
-
   body {
     background-color: black;
     width: 100%;
   }
-
   .container {
     margin-top: 70px;
+    display: -ms-grid;
     display: grid;
     width: 100%;
     justify-items: center;
     grid-gap: 5px;
-    grid-template-columns: 2fr;
-    grid-template-areas:
-      "area1"
-      "area2"
-      "area3"
-      "area4"
-      "area5"
-      "area6";
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+        grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6";
   }
-
   .area1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: area1;
   }
-
   .area2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: area2;
   }
-
   .area3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: area3;
   }
-
   .area4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: area4;
   }
-
   .area5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: area5;
   }
-
   .area6 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
     grid-area: area6;
   }
-
   header {
     font-family: serif;
-    background-color: rgb(215, 203, 215);
-    border: rgb(255, 255, 255) 5px solid;
+    background-color: #d7cbd7;
+    border: white 5px solid;
     border-style: groove;
   }
-
-
-
-
-
   h1 {
     text-align: center;
   }
-
   footer {
     margin-top: 400px;
   }
-
-
-
   .imagen {
     width: 600px;
     height: 30vh;
     border: black 2px solid;
   }
-
   .cuadro {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 2fr;
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
     justify-items: center;
     margin-top: 60px;
     width: 80%;
     height: 80vh;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     margin-left: 30px;
   }
-
   .elemento {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: rgba(255, 252, 252, 0.974);
     align-items: center;
     margin-top: 20px;
-    border: rgba(2, 2, 2, 0.974)2px solid;
+    border: rgba(2, 2, 2, 0.974) 2px solid;
   }
-
   .titulo {
     font-size: 40px;
     font-family: fantasy;
     color: rgba(189, 153, 187, 0.827);
   }
-
   .descripcion {
     font-size: 20px;
     font-family: monospace;
     color: black;
     text-align: justify;
   }
-
-
-
-  body {
-    background-color: black;
-    width: 100%;
-  }
-
   .fuen {
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 300px 330px;
+    -ms-grid-rows: 300px 300px;
+        grid-template-rows: 300px 300px;
+    -ms-grid-columns: 300px 330px;
+        grid-template-columns: 300px 330px;
   }
-
   .redondo1 {
     background-color: thistle;
     margin-top: 80px;
     border-radius: 50%;
     margin-left: 50px;
   }
-
   .parrafo {
     margin-top: 100px;
     font-size: x-small;
     text-align: center;
     font-weight: bold;
   }
-
   .redondo2 {
-    background-color: rgb(142, 193, 232);
+    background-color: #8ec1e8;
     margin-top: 170px;
     border-radius: 50%;
     margin-left: 190px;
   }
-
   .parrafo2 {
     font-weight: bold;
-    color: rgb(89, 14, 133);
+    color: #590e85;
     margin-left: 44px;
     margin-top: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: x-large;
   }
-
   .redondo3 {
     background-image: url(https://www.actuallynotes.com/wp-content/uploads/2018/09/Que%CC%81-es-una-fuente-histo%CC%81rica.jpg);
     margin-top: 100px;
     border-radius: 50%;
     margin-left: 100px;
   }
-
-  body {
-    background-color: black;
-    width: 100%;
-  }
 }
 
-
-
-
-
-
-/*desktop*/
-@media (min-width:1044px) {
-
-
-
-
-
-
+@media (min-width: 1044px) {
   .container {
     margin-top: 70px;
+    display: -ms-grid;
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 400px;
-    grid-template-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 400px;
+        grid-template-columns: 1fr 1fr 400px;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
   }
-
-
-
   header {
     font-family: serif;
-    background-color: rgb(215, 203, 215);
-    border: rgb(255, 255, 255) 5px solid;
+    background-color: #d7cbd7;
+    border: white 5px solid;
     width: 100%;
     border-style: groove;
   }
-
-
-
-
-
   h1 {
     text-align: center;
   }
-
   footer {
     margin-top: 30px;
   }
-
-
-
   .imagen {
     width: 1100px;
     height: 30vh;
     border: black 2px solid;
   }
-
   .cuadro {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 500px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 0.5fr 500px;
+        grid-template-rows: 0.5fr 500px;
     margin-top: 60px;
     width: 80%;
     height: 80vh;
-    margin-bottom: 60px;
+    margin-bottom: 140px;
     margin-left: 10px;
   }
-
   .elemento {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: rgba(255, 252, 252, 0.974);
     align-items: center;
     margin-top: 20px;
-    border: rgba(2, 2, 2, 0.974)2px solid;
+    border: rgba(2, 2, 2, 0.974) 2px solid;
   }
-
   .titulo {
     font-size: 40px;
     font-family: fantasy;
     color: rgba(189, 153, 187, 0.827);
   }
-
   .descripcion {
     font-size: 20px;
     font-family: monospace;
     color: black;
     text-align: justify;
   }
-
-
   li {
-
     list-style-position: initial;
   }
-
   .fuen {
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 300px auto 210px;
-    grid-template-columns: 300px 330px 290px;
+    -ms-grid-rows: 300px auto 210px;
+        grid-template-rows: 300px auto 210px;
+    -ms-grid-columns: 300px 330px 290px;
+        grid-template-columns: 300px 330px 290px;
   }
-
   .redondo1 {
     background-color: thistle;
     margin-top: 80px;
     border-radius: 50%;
     margin-left: 50px;
   }
-
   .parrafo {
     margin-top: 100px;
     font-size: x-small;
     text-align: center;
     font-weight: bold;
   }
-
+  .parrafo2 {
+    font-weight: bold;
+    color: #590e85;
+    margin-left: 44px;
+    margin-top: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+  }
   .redondo2 {
-    background-color: rgb(142, 193, 232);
+    background-color: #8ec1e8;
     margin-top: 170px;
     border-radius: 50%;
     margin-left: 190px;
   }
-
   .redondo3 {
     background-image: url(https://www.actuallynotes.com/wp-content/uploads/2018/09/Que%CC%81-es-una-fuente-histo%CC%81rica.jpg);
     margin-top: 220px;
     border-radius: 50%;
     margin-left: 190px;
     margin-right: 20px;
-
   }
-
   body {
     background-color: black;
   }
 }
+/*# sourceMappingURL=kaila.css.map */

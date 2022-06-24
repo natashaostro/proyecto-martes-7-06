@@ -1,0 +1,41 @@
+
+$palette: (
+$background-color_1: black,
+$background-color_2: rgb(215, 203, 215),
+$background-color_3: rgba(255, 252, 252, 0.974),
+$background-color_4: thistle,
+$background-color_5: rgb(142, 193, 232),
+$color_1: rgba(189, 153, 187, 0.827),
+$color_2: black,
+$color_3: rgb(89, 14, 133),
+$font-family_1: serif,
+$font-family_2: fantasy,
+$font-family_3: monospace,
+$font-family_4: 'Times New Roman', Times, serif,
+);
+
+@mixin sizes ($widht, $height){
+height: $height;
+width: $widht;}
+
+.area1{
+    @include sizes(349px,430px )
+}
+.area2{
+    @include sizes(330px,430px )
+}
+.area3{
+    @include sizes(330px,430.39px )
+}
+.area4{
+    @include sizes(350px,330.39px )
+}
+.area5{
+    @include sizes(336px,330.39px )
+}
+.area6{
+    @include sizes(330px,330.39px )
+}
+
+        
+      
