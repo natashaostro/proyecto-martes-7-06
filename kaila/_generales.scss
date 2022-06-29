@@ -6,11 +6,11 @@
 
 @media (min-width:1044px) {
 body {
-        background-color:map-get($map: $palette, $key:$background-color_1 ) ;
+    background-color:map-get($map: $palette, $key:$background-color_1 ) ;
     }
 
 li {
-        list-style-position: initial;
+    list-style-position: initial;
     }
 
 h1 {

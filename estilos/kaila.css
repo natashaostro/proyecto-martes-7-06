@@ -1,5 +1,6 @@
 /*desktop*/
 @media (max-width: 1043px) {
+  
   * {
     padding: 0;
     margin: 0;
@@ -8,6 +9,7 @@
     background-color: black;
     width: 100%;
   }
+  form{background-color: thistle;width: 100%;}
   .container {
     margin-top: 70px;
     display: -ms-grid;
@@ -147,9 +149,11 @@
     border-radius: 50%;
     margin-left: 100px;
   }
+  .noticia{margin-top: 60px;height: 500px;}
 }
 
 @media (min-width: 1044px) {
+  .noticia{margin-top: 60px; width:1100px }
   .container {
     margin-top: 70px;
     display: -ms-grid;
@@ -267,5 +271,6 @@
   body {
     background-color: black;
   }
+  form{background-color: thistle;}
 }
 /*# sourceMappingURL=kaila.css.map */
