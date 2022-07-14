@@ -102,7 +102,7 @@
 		border-radius: 50%;
 		margin-left: 100px;
 	}
-	.cuadricula{align-items: center;justify-content: center;}
+	.cuadricula{align-items: center;justify-content: center;display: grid;}
 }
 @media (min-width:1044px) {
 	form{background-color:map-get($map: $palette, $key:$background-color_4 ) ;
