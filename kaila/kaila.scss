@@ -1,10 +1,12 @@
-* {
-    padding: 0;
-    margin: 0;
-    }
+@import"_variables";
+@import"_layout";
+@import"_generales";
+
+
+
+/*index */
     
-    /*index */
-    .contain {
+.contain {
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
@@ -410,14 +412,14 @@
   
      .foto1{
      width:300px;
-     height:200px;}
+     height:230px;}
      .foto2{
      width:300px;
-     height:197px;
+     height:170px;
      margin-top: 12px;}
           
     .foto3{
-    width:310px;
+    width:300px;
     height:230px;}
           
     .foto4{
@@ -495,3 +497,4 @@ margin-top: 12px;}
   
     
     
+ 

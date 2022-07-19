@@ -1,0 +1,496 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*index */
+.contain {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 150px;
+  grid-template-areas: "area1" "area2"   "area3"     "area4"       "area5"       "area6"       "area7"       "area8"      "area9"       "area10";
+}
+
+.letra {
+  font-weight: bold;
+  background-color: aliceblue;
+  text-align: justify;
+}
+
+.area1 {
+  grid-area: area1;
+  justify-self: center;
+}
+
+.area2 {
+  grid-area: area2;
+  margin-top: 20px;
+  justify-self: center;
+}
+
+.area3 {
+  grid-area: area3;
+  justify-self: center;
+}
+
+.area4 {
+  grid-area: area4;
+  justify-self: center;
+}
+
+.area5 {
+  grid-area: area5;
+  justify-self: center;
+}
+
+.area6 {
+  grid-area: area6;
+  justify-self: center;
+}
+
+.area7 {
+  grid-area: area7;
+  justify-self: center;
+}
+
+.area8 {
+  grid-area: area8;
+  justify-self: center;
+}
+
+.area9 {
+  grid-area: area9;
+  justify-self: center;
+}
+
+.area10 {
+  grid-area: area10;
+  justify-self: center;
+}
+
+.aarea10 {
+  width: 300px;
+  height: 90px;
+}
+
+.introduccion {
+  height: 750px;
+  background-color: rgba(212, 233, 246, 0.911);
+}
+
+/*Actividades */
+#cuadro {
+  display: grid;
+  grid-gap: 55px;
+  grid-template-columns: 900px;
+  grid-template-rows: auto 800px auto;
+  grid-template-areas: "card1"  "card2"  "card3";
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card1 {
+  grid-area: card1;
+  background-color: #7bb4a0;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.card2 {
+  grid-area: card2;
+  background-color: thistle;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.card3 {
+  grid-area: card3;
+  background-color: #e4e487d2;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 350px;
+}
+
+#marco {
+  margin-top: 80px;
+  display: grid;
+  grid-template-rows: 380px;
+  grid-template-areas: "media1" "media2"  "media3";
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.media1 {
+  grid-area: media1;
+  color: aliceblue;
+  background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/290777305_410483881119254_3799146342954581853_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHMwJYOk0kJ1xNgHQCcmig0zCR5gFKPSg7MJHmAUo9KDoJW0pg0iEMF3ZfD8Y2sI3qlG6WCML_m9mzU--AeRRjg&_nc_ohc=wUNnKsJIrX4AX_EVkTv&_nc_ht=scontent.faep9-3.fna&oh=00_AT8SN7DW9y_Y4tP1P6LKC80ss7tzTCXtfW7ohB85ZmOgZA&oe=62DA208D);
+  text-align: justify;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.media2 {
+  grid-area: media2;
+  display: flex;
+  font-size: 14px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.media3 {
+  grid-area: media3;
+  font-size: 14px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.foto1 {
+  width: 500px;
+  height: 300px;
+}
+
+.letra {
+  font-size: large;
+  text-align: center;
+}
+
+.vision {
+  text-align: center;
+  margin-top: 50px;
+  font-size: larger;
+  background-color: azure;
+}
+
+.foto2 {
+  height: 200px;
+  width: 500px;
+}
+
+.foto3 {
+  height: 340px;
+  width: 500px;
+}
+
+.foto4 {
+  height: 362px;
+  width: 500px;
+}
+
+.foto5 {
+  height: 340px;
+  width: 500px;
+}
+
+.foto6 {
+  height: 220px;
+  width: 500px;
+}
+
+.lado2 {
+  width: 510px;
+  height: 300px;
+}
+
+.lado3 {
+  width: 510px;
+  height: 300px;
+}
+
+.inicio {
+  height: 220px;
+  background-image: url(https://www.elhistoriador.com.ar/wp-content/uploads/2017/12/primer_gobierno_patrio-696x220.jpg);
+}
+
+/*Muestra*/
+.clearfix {
+  margin-top: 40px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  width: 97%;
+  align-items: center;
+}
+
+.fondo {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo2 {
+  text-align: center;
+  background-color: rgba(203, 203, 203, 0.876);
+}
+
+.escritura {
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagenes {
+  align-items: center;
+}
+
+.fotografia {
+  width: 100%;
+  height: 260px;
+}
+
+.fondo {
+  height: 350px;
+  background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t1.6435-9/107138557_4396050987086750_4585041114675061587_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHBIoyc2DXlhs1nhOASF9y5u9vzv3l3oyC72_O_eXejIC3oz9TeuMDUU4qW7mxgk0p6BM7wkm1HhDepKRTZF1LJ&_nc_ohc=4KzfIrvZvHYAX_Mg1XN&_nc_ht=scontent.faep9-3.fna&oh=00_AT-nYsfVpmlYsQu38gfxxRoQF5J2NnWs6lCVTqO6tEpU_A&oe=62FC9671);
+}
+
+/*Galeria*/
+.paint {
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.archivo {
+  margin-bottom: 100px;
+  width: 700px;
+  height: 300px;
+}
+
+.b-example-divider {
+  height: 2rem;
+  background-color: #66cdc1;
+  border: solid rgba(121, 238, 215, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  color: aliceblue;
+}
+
+.agregado {
+  color: #66cdc1;
+  font-size: small;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.archivo {
+  margin-bottom: 100px;
+  width: 500px;
+  height: 300px;
+}
+
+.imagenes {
+  width: 100%;
+}
+
+.wiw {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+
+/*Suscripcion*/
+.espacio {
+  margin-top: 50px;
+}
+
+.boton {
+  margin-top: 10px;
+}
+
+.text-gradient {
+  color: transparent;
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+  background-clip: text;
+  animation: color 3s linear infinite;
+  background-size: 300%;
+}
+
+@keyframes color {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+footer {
+  background-color: thistle;
+  height: 28px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 25px;
+  text-align: center;
+  color: rgba(56, 54, 54, 0.541);
+  margin-right: 90px;
+}
+
+h5 {
+  margin-top: 250px;
+  font-size: xx-large;
+}
+
+body {
+  background-color: black;
+}
+
+@media (min-width: 992px) {
+  /*index */
+  .contain {
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 308px 308px 308px;
+    grid-template-rows: 410px 325px 1fr 150px;
+    margin-right: 400px;
+    grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9" "area10 area10 area10";
+    width: 100%;
+    justify-content: center;
+  }
+  .area1 {
+    grid-area: area1;
+    border-color: thistle #8ec1e8 #e9de95 #aadfcb;
+    border-width: 3px;
+    border-style: solid;
+  }
+  .area5 {
+    grid-area: area5;
+    border-color: thistle #8ec1e8 #e9de95 #aadfcb;
+    border-width: 3px;
+    border-style: solid;
+  }
+  .area9 {
+    grid-area: area9;
+    border-color: thistle #8ec1e8 #e9de95 #aadfcb;
+    border-width: 3px;
+    border-style: solid;
+  }
+  .aarea10 {
+    width: 946px;
+    height: 150px;
+  }
+  .vision {
+    text-align: justify;
+    background-color: aliceblue;
+  }
+  .contenido {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    font-family: serif;
+  }
+  /*actividades*/
+  .inicio {
+    height: 350px;
+    background-image: url(https://scontent.faep9-1.fna.fbcdn.net/v/t39.30808-6/196002701_6506051229420038_4968700622368709826_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHhgsuWDGce50Qv7AuRXNQMQSkeI1q3m1JBKR4jWrebUh-2PQoNkRtjfWi7KJrPE1YKB3-OxSsKx5WCGy9BD4Vj&_nc_ohc=GFxBXD27KWYAX_UuuyI&_nc_ht=scontent.faep9-1.fna&oh=00_AT8corSeSRKivStopwb9bagmBpjQC9HV4Oz2UyaLeLPgSw&oe=62DB0BFE);
+  }
+  #cuadro {
+    display: grid;
+    grid-gap: 55px;
+    grid-template-columns: 280px 260px auto;
+    grid-template-rows: 1070px;
+    grid-template-areas: "card1 card2 card3";
+    width: 97%;
+    margin-bottom: 200px;
+    margin-left: 69px;
+  }
+  .tamaño {
+    margin-top: 22px;
+  }
+  .card1 {
+    grid-area: card1;
+    background-color: #7bb4a0;
+    width: 300px;
+    margin-top: 200px;
+  }
+  .card2 {
+    grid-area: card2;
+    background-color: thistle;
+    width: 300px;
+    margin-top: 200px;
+  }
+  .card3 {
+    grid-area: card3;
+    background-color: #e4e487d2;
+    width: 300px;
+    margin-right: 300px;
+    margin-top: 200px;
+  }
+  .foto1 {
+    width: 300px;
+    height: 230px;
+  }
+  .foto2 {
+    width: 300px;
+    height: 170px;
+    margin-top: 12px;
+  }
+  .foto3 {
+    width: 300px;
+    height: 230px;
+  }
+  .foto4 {
+    width: 300px;
+    height: 150px;
+  }
+  .foto5 {
+    width: 300px;
+    height: 230px;
+  }
+  .foto6 {
+    width: 300px;
+    height: 194px;
+    margin-top: 12px;
+  }
+  #marco {
+    margin-top: 80px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1000px;
+    grid-template-rows: 380px;
+    grid-template-areas: "media1" "media2" "media3";
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .media1 {
+    grid-area: media1;
+    color: aliceblue;
+    background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/290777305_410483881119254_3799146342954581853_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHMwJYOk0kJ1xNgHQCcmig0zCR5gFKPSg7MJHmAUo9KDoJW0pg0iEMF3ZfD8Y2sI3qlG6WCML_m9mzU--AeRRjg&_nc_ohc=wUNnKsJIrX4AX_EVkTv&_nc_ht=scontent.faep9-3.fna&oh=00_AT8SN7DW9y_Y4tP1P6LKC80ss7tzTCXtfW7ohB85ZmOgZA&oe=62DA208D);
+    text-align: justify;
+  }
+  .media2 {
+    grid-area: media2;
+    display: flex;
+    font-size: 14px;
+  }
+  .media3 {
+    grid-area: media3;
+    font-size: 14px;
+  }
+  .lado2 {
+    width: 250px;
+    height: 200px;
+  }
+  .lado3 {
+    width: 250px;
+    height: 140px;
+  }
+  /*Muestra*/
+  .fondo {
+    width: 100%;
+    height: 350px;
+    background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t1.6435-9/107138557_4396050987086750_4585041114675061587_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHBIoyc2DXlhs1nhOASF9y5u9vzv3l3oyC72_O_eXejIC3oz9TeuMDUU4qW7mxgk0p6BM7wkm1HhDepKRTZF1LJ&_nc_ohc=4KzfIrvZvHYAX_Mg1XN&_nc_ht=scontent.faep9-3.fna&oh=00_AT-nYsfVpmlYsQu38gfxxRoQF5J2NnWs6lCVTqO6tEpU_A&oe=62FC9671);
+  }
+}
+/*# sourceMappingURL=kaila.css.map */
