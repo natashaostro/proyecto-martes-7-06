@@ -11,7 +11,16 @@
   grid-gap: 10px;
   grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 150px;
-  grid-template-areas: "area1" "area2"   "area3"     "area4"       "area5"       "area6"       "area7"       "area8"      "area9"       "area10";
+  grid-template-areas: "area1"
+ "area2"  
+ "area3"    
+ "area4"      
+ "area5"      
+ "area6"      
+ "area7"      
+ "area8"     
+ "area9"      
+ "area10";
 }
 
 .letra {
@@ -87,7 +96,9 @@
   grid-gap: 55px;
   grid-template-columns: 900px;
   grid-template-rows: auto 800px auto;
-  grid-template-areas: "card1"  "card2"  "card3";
+  grid-template-areas: "card1" 
+ "card2" 
+ "card3";
   justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -118,7 +129,9 @@
   margin-top: 80px;
   display: grid;
   grid-template-rows: 380px;
-  grid-template-areas: "media1" "media2"  "media3";
+  grid-template-areas: "media1"
+ "media2" 
+ "media3";
   justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -126,7 +139,7 @@
 .media1 {
   grid-area: media1;
   color: aliceblue;
-  background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/290777305_410483881119254_3799146342954581853_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHMwJYOk0kJ1xNgHQCcmig0zCR5gFKPSg7MJHmAUo9KDoJW0pg0iEMF3ZfD8Y2sI3qlG6WCML_m9mzU--AeRRjg&_nc_ohc=wUNnKsJIrX4AX_EVkTv&_nc_ht=scontent.faep9-3.fna&oh=00_AT8SN7DW9y_Y4tP1P6LKC80ss7tzTCXtfW7ohB85ZmOgZA&oe=62DA208D);
+  background-image: url(https://images.unsplash.com/photo-1626693547273-547ae1803110?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
   text-align: justify;
   margin-right: 250px;
   margin-left: 250px;
@@ -203,8 +216,9 @@
 }
 
 .inicio {
-  height: 220px;
-  background-image: url(https://www.elhistoriador.com.ar/wp-content/uploads/2017/12/primer_gobierno_patrio-696x220.jpg);
+  height: 180px;
+  background-image: url(https://www.argentina.gob.ar/sites/default/files/bannerbiblioteca_mesa_de_trabajo_1.png);
+  margin-bottom: 50px;
 }
 
 /*Muestra*/
@@ -341,6 +355,7 @@ h5 {
   font-size: xx-large;
 }
 
+
 body {
   background-color: black;
 }
@@ -354,7 +369,10 @@ body {
     grid-template-columns: 308px 308px 308px;
     grid-template-rows: 410px 325px 1fr 150px;
     margin-right: 400px;
-    grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9" "area10 area10 area10";
+    grid-template-areas: "area1 area2 area3"
+ "area4 area5 area6"
+ "area7 area8 area9"
+ "area10 area10 area10";
     width: 100%;
     justify-content: center;
   }
@@ -392,8 +410,8 @@ body {
   }
   /*actividades*/
   .inicio {
-    height: 350px;
-    background-image: url(https://scontent.faep9-1.fna.fbcdn.net/v/t39.30808-6/196002701_6506051229420038_4968700622368709826_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHhgsuWDGce50Qv7AuRXNQMQSkeI1q3m1JBKR4jWrebUh-2PQoNkRtjfWi7KJrPE1YKB3-OxSsKx5WCGy9BD4Vj&_nc_ohc=GFxBXD27KWYAX_UuuyI&_nc_ht=scontent.faep9-1.fna&oh=00_AT8corSeSRKivStopwb9bagmBpjQC9HV4Oz2UyaLeLPgSw&oe=62DB0BFE);
+    height: 180px;
+    background-image: url(https://www.argentina.gob.ar/sites/default/files/bannerbiblioteca_mesa_de_trabajo_1.png);
   }
   #cuadro {
     display: grid;
@@ -402,7 +420,7 @@ body {
     grid-template-rows: 1070px;
     grid-template-areas: "card1 card2 card3";
     width: 97%;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     margin-left: 69px;
   }
   .tamaño {
@@ -434,7 +452,7 @@ body {
   .foto2 {
     width: 300px;
     height: 170px;
-    margin-top: 12px;
+    
   }
   .foto3 {
     width: 300px;
@@ -466,7 +484,7 @@ body {
   .media1 {
     grid-area: media1;
     color: aliceblue;
-    background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/290777305_410483881119254_3799146342954581853_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHMwJYOk0kJ1xNgHQCcmig0zCR5gFKPSg7MJHmAUo9KDoJW0pg0iEMF3ZfD8Y2sI3qlG6WCML_m9mzU--AeRRjg&_nc_ohc=wUNnKsJIrX4AX_EVkTv&_nc_ht=scontent.faep9-3.fna&oh=00_AT8SN7DW9y_Y4tP1P6LKC80ss7tzTCXtfW7ohB85ZmOgZA&oe=62DA208D);
+    background-image: url(https://images.unsplash.com/photo-1626693547273-547ae1803110?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
     text-align: justify;
   }
   .media2 {
@@ -479,12 +497,12 @@ body {
     font-size: 14px;
   }
   .lado2 {
-    width: 250px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
   }
   .lado3 {
-    width: 250px;
-    height: 140px;
+    width: 500px;
+    height: 300px;
   }
   /*Muestra*/
   .fondo {
