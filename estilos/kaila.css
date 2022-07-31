@@ -91,6 +91,10 @@
 }
 
 /*Actividades */
+.letra2{
+  color: aliceblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
 #cuadro {
   display: grid;
   grid-gap: 55px;
@@ -215,12 +219,10 @@
   height: 300px;
 }
 
-.inicio {
-  height: 180px;
-  background-image: url(https://www.argentina.gob.ar/sites/default/files/bannerbiblioteca_mesa_de_trabajo_1.png);
-  margin-bottom: 50px;
-}
 
+.espacio{
+margin-bottom: 50px;
+}
 /*Muestra*/
 .clearfix {
   margin-top: 40px;
@@ -409,10 +411,7 @@ body {
     font-family: serif;
   }
   /*actividades*/
-  .inicio {
-    height: 180px;
-    background-image: url(https://www.argentina.gob.ar/sites/default/files/bannerbiblioteca_mesa_de_trabajo_1.png);
-  }
+
   #cuadro {
     display: grid;
     grid-gap: 55px;
