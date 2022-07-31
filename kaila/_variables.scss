@@ -13,8 +13,3 @@ $background-color_7: rgba(203, 203, 203, 0.876);
 $background-color_8: rgb(102, 205, 193);
 $border-color_1: thistle #8ec1e8 rgb(233, 222, 149) rgb(170, 223, 203);
 
-@mixin sizes ($widht, $height){
-    height: $height;
-    width: $widht;}
-    
-    
